@@ -1,6 +1,30 @@
-# Four.meme Trading Bot
+# Four.meme Trading Bot (4meme Trading bot)
 
 A TypeScript trading bot for four.meme tokens with automatic migration detection and dual exchange support.
+
+## Contact me on Telegram to build your own four.meme trading bot
+<a href="https://t.me/just_ben_venture" target="_blank">
+  <img src="https://img.shields.io/badge/Telegram-@Contact_Me-0088cc?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram Support" />
+</a>
+
+## Transaction Examples
+
+### Transactions before Migration
+
+**Buy Transaction**
+- [Buy Tx](https://bscscan.com/tx/0x5e7725ac2357f1f109e2d3d53b1f1f3de82ae3c44ee369d8e47226cdd07520a6)
+
+**Sell Transaction**
+- [Sell Tx](https://bscscan.com/tx/0x0ffbf19b9ba43aef3e492b4abff88e8cc0b4da8d4b3d572bef37a9fa3acba919)
+
+### Transactions after Migration
+
+**Buy Transaction**
+- [Buy Tx](https://bscscan.com/tx/0x7c744d0cdb93d2e86ba067d7c96cc749ae7bb026fc68cf21ec2e4808fef9496a)
+
+**Sell Transaction**
+- [Sell Tx](https://bscscan.com/tx/0x82b243fe62810eda45ada2b024002784bde088d7c9eb792d1b1283ec895b1e5e)
+
 
 ## Features
 
@@ -21,11 +45,11 @@ A TypeScript trading bot for four.meme tokens with automatic migration detection
    Create a `.env` file with your configuration:
    ```bash
    PRIVATE_KEY=your_private_key_here
-   RPC_URL=https://bsc-dataseed.binance.org
+   RPC_URL=
    TOKEN_MANAGER=
    HELPER_ADDRESS=
    PANCAKE_ROUTER_ADDRESS=
-   WBNB_ADDRESS=0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c
+   WBNB_ADDRESS=
    ```
 
 3. **Run the Bot**
@@ -125,7 +149,6 @@ npm run dev
 # Type checking
 npx tsc --noEmit
 ```
-
 ## License
 
 MIT
